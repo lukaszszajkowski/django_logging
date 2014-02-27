@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head><title>{% block title %}Hello{% endblock title %}</title></head>
+<body>
+<p>{{ request.session.team }}</p>
+{% block content %}
+    <p>Use this document as a way to quick start any new project.</p>
+{% endblock content %}
+</body></html>
