@@ -20,7 +20,7 @@ LOGGING = {
             '%(message)s',
         },
         'request_extended_format': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(session_key)s %(remote_addr)s %(team)s %(username)s "%(request_method)s '
+            'format': '%(levelname)s %(asctime)s %(module)s.%(funcName)s():%(lineno)d %(current_view)s %(process)d %(thread)d %(session_key)s %(remote_addr)s %(team)s %(username)s "%(request_method)s '
             '%(server_protocol)s" %(http_user_agent)s %(path_info)s %(query_string)s %(post_string)s '
             '%(message)s',
         },
@@ -61,13 +61,13 @@ LOGGING = {
             'level': 'DEBUG',
             'class': 'logging.FileHandler', # set the logging class to log to a file
             'filters': ['request'],
-            'formatter': 'request_format',         # define the formatter to associate
+            'formatter': 'request_extended_format',         # define the formatter to associate
             'filename': os.path.join(DJANGO_ROOT, 'log', 'sql.log') # log file
         },
         'http_file_info': {                # define and name a handler
             'level': 'INFO',
             'class': 'logging.FileHandler', # set the logging class to log to a file
-            'filters': ['request','include_teams'],
+            'filters': ['request'],
             'formatter': 'request_extended_format', # define the formatter to associate
             'filename': os.path.join(DJANGO_ROOT, 'log', 'http.log') # log file
         },

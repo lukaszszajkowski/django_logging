@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="372c0589-acdd-483d-a878-43b4a3b5e6a4" name="Default" comment="" />
+    <list default="true" id="372c0589-acdd-483d-a878-43b4a3b5e6a4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/logging_filters.py" afterPath="$PROJECT_DIR$/main/logging_filters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_logging/logging_settings.py" afterPath="$PROJECT_DIR$/django_logging/logging_settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="django_logging.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +31,7 @@
       <file leaf-file-name="logging_filters.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/logging_filters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.33167082" vertical-offset="156" max-vertical-offset="782">
+            <state line="41" column="30" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.4620253" vertical-offset="478" max-vertical-offset="952">
               <folding>
                 <element signature="e#23#34#0" expanded="true" />
               </folding>
@@ -37,7 +42,7 @@
       <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/Python33/Lib/logging/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="557" column="0" selection-start="20543" selection-end="20543" vertical-scroll-proportion="0.0" vertical-offset="9319" max-vertical-offset="15793">
+            <state line="557" column="0" selection-start="20543" selection-end="20543" vertical-scroll-proportion="0.0" vertical-offset="9469" max-vertical-offset="15793">
               <folding />
             </state>
           </provider>
@@ -46,7 +51,7 @@
       <file leaf-file-name="middleware.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/middleware.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="29" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -55,23 +60,33 @@
       <file leaf-file-name="logging_settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_logging/logging_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="14" selection-start="1255" selection-end="1255" vertical-scroll-proportion="-9.896552" vertical-offset="257" max-vertical-offset="1921">
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
+            <state line="22" column="100" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/sql.log">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="70" selection-start="47753" selection-end="47753" vertical-scroll-proportion="-3.4814816" vertical-offset="1997" max-vertical-offset="2431">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="http.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/http.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="22" selection-start="4852" selection-end="4852" vertical-scroll-proportion="4.0740743" vertical-offset="433" max-vertical-offset="867">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -91,6 +106,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -98,15 +121,15 @@
         <option value="$PROJECT_DIR$/main/models.py" />
         <option value="C:/opt/python_envs/pensioner_p33_d15/Lib/site-packages/django_requestlogging/middleware.py" />
         <option value="$PROJECT_DIR$/django_logging/settings.py" />
-        <option value="$PROJECT_DIR$/log/sql.log" />
         <option value="$PROJECT_DIR$/log/project.log" />
         <option value="$PROJECT_DIR$/main/middleware.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/django_logging/logging_settings.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
+        <option value="$PROJECT_DIR$/django_logging/logging_settings.py" />
         <option value="$PROJECT_DIR$/main/logging_filters.py" />
+        <option value="$PROJECT_DIR$/log/sql.log" />
         <option value="$PROJECT_DIR$/log/http.log" />
       </list>
     </option>
@@ -117,7 +140,7 @@
     <option name="width" value="1618" />
     <option name="height" value="884" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -171,34 +194,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_logging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_logging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_logging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_logging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,11 +220,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -321,7 +316,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django_logging" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -347,27 +362,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="django_logging" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -477,11 +472,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25546977" sideWeight="0.60084033" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25868726" sideWeight="0.70308125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29691878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29691878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,9 +502,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25225225" sideWeight="0.60084033" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -525,16 +520,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main/logging_filters.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="6" />
+          <line>45</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/main/logging_filters.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
+          <line>47</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -563,51 +558,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/project.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.73378074" vertical-offset="97" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/sql.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="12267" selection-end="12267" vertical-scroll-proportion="0.7258065" vertical-offset="246" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state line="25" column="0" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.73378074" vertical-offset="97" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="134" selection-end="134" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python33/Lib/logging/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="0" selection-start="20543" selection-end="20543" vertical-scroll-proportion="0.0" vertical-offset="9319" max-vertical-offset="15793">
-          <folding />
-        </state>
+        <state line="4" column="33" selection-start="134" selection-end="134" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="11" column="38" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -619,18 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="114" selection-end="114" vertical-scroll-proportion="0.1030303" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_logging/logging_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="1255" selection-end="1255" vertical-scroll-proportion="-9.896552" vertical-offset="257" max-vertical-offset="1921">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="19" selection-start="114" selection-end="114" vertical-scroll-proportion="0.1030303" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/main.log">
@@ -640,19 +594,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/http.log">
+    <entry file="file://$PROJECT_DIR$/log/sql.log">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+        <state line="123" column="70" selection-start="47753" selection-end="47753" vertical-scroll-proportion="-3.4814816" vertical-offset="1997" max-vertical-offset="2431">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/http.log">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="4852" selection-end="4852" vertical-scroll-proportion="4.0740743" vertical-offset="433" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/logging/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="0" selection-start="20543" selection-end="20543" vertical-scroll-proportion="0.0" vertical-offset="9319" max-vertical-offset="15793">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_logging/logging_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="100" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1921">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/logging_filters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.33167082" vertical-offset="156" max-vertical-offset="782">
+        <state line="41" column="30" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.4620253" vertical-offset="478" max-vertical-offset="952">
           <folding>
             <element signature="e#23#34#0" expanded="true" />
           </folding>
