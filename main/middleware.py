@@ -7,6 +7,31 @@ from .logging_filters import ExtendedRequestFilter
 class LogRequestMiddleware(LogSetupMiddleware):
     FILTER = ExtendedRequestFilter
 
+    def ooo_find_filterer_with_filter(self, filterers, filter_cls):
+        """
+        Returns a :class:`dict` of filterers mapped to a list of filters.
+
+        *filterers* should be a list of filterers.
+
+        *filter_cls* should be a logging filter that should be matched.
+        """
+        result = {}
+        for logger in filterers:
+            filters = [f for f in getattr(logger, 'filters', [])
+                       if isinstance(f, filter_cls)]
+            if filters:
+                result[logger] = filters
+        return result
+
+    def aaaadd_filter(self, f, filter_cls=None):
+        """Add filter *f* to any loggers that have *filter_cls* filters."""
+        if filter_cls is None:
+            filter_cls = type(f)
+        for logger in self.find_loggers_with_filter(filter_cls):
+            logger.addFilter(f)
+        for handler in self.find_handlers_with_filter(filter_cls):
+            handler.addFilter(f)
+
     def find_loggers(self):
         """
         Returns a :class:`dict` of names and the associated loggers.

@@ -12,7 +12,7 @@ LOGGING = {
             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
         },
         'simple': {
-            'format': '%(levelname)s  %(team)s %(username)s %(module)s %(message)s'
+            'format': '%(team)s %(path_info)s %(levelname)s  %(team)s %(username)s %(module)s %(message)s'
         },
         'request_format': {
             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(remote_addr)s %(team)s %(username)s "%(request_method)s '
@@ -26,12 +26,12 @@ LOGGING = {
         },
     },
     'filters': {
-        'request': {
-            '()': 'main.logging_filters.ExtendedRequestFilter',
-        },
         'include_teams': {
             '()': 'main.logging_filters.IncludeTeamFilter',
             'teams': 'my_team',
+        },
+        'request': {
+            '()': 'main.logging_filters.ExtendedRequestFilter',
         }
     },
     'handlers': {
@@ -42,7 +42,7 @@ LOGGING = {
         'console':{
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
-            'filters': ['request'],
+            'filters': ['include_teams', 'request'],
             'formatter': 'simple',
         },
         'console2':{
