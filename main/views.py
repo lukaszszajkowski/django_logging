@@ -25,7 +25,7 @@ def detail(request, reference):
     pensioner = Pensioner.objects.filter(reference=reference)[0]
     return render(request, 'detail.html', {'pensioner': pensioner})
 
-@tas_view_audit(operation_label="VIEW")
+@tas_view_audit(operation_label="VIEW", request_method = 'POST')
 def edit(request, reference):
     l.info("edit")
     pensioner = Pensioner.objects.filter(reference=reference)[0]
