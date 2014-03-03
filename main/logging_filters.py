@@ -2,12 +2,13 @@ __author__ = 'Lukasz'
 
 import json
 import logging
-import inspect
-import linecache
+l = logging.getLogger(__name__)
+
 from inspect import stack, getmodule
 
 
 from django_requestlogging.logging_filters import RequestFilter
+
 
 class IncludeTeamFilter(logging.Filter):
 

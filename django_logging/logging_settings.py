@@ -42,7 +42,7 @@ LOGGING = {
         'console':{
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
-            'filters': ['include_teams', 'request'],
+            'filters': ['request'],
             'formatter': 'simple',
         },
         'console2':{
@@ -77,8 +77,21 @@ LOGGING = {
             'formatter': 'verbose',         # define the formatter to associate
             'filename': os.path.join(DJANGO_ROOT, 'log', 'project.log') # log file
         },
+        'audit_file_info': {                # define and name a handler
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler', # set the logging class to log to a file
+            'filters': ['request'],
+            'formatter': 'request_extended_format',         # define the formatter to associate
+            'filename': os.path.join(DJANGO_ROOT, 'log', 'audit.log') # log file
+        },
     },
     'loggers': {
+        'main.audit': {
+            'handlers': ['console','audit_file_info'],
+            'level': 'DEBUG',
+            'propagate': True,
+            'filters': []
+        },
         'django': {
             'handlers': ['console','http_file_info'],
             'propagate': True,
@@ -94,6 +107,7 @@ LOGGING = {
             'level': 'INFO',
             'filters': []
         },
+
         'django.db.backends': {              # define a logger - give it a name
             'handlers': ['console','sql_file_info'], # specify what handler to associate
             'level': 'DEBUG',                 # specify the logging level
